@@ -9,6 +9,7 @@ body{
     height: 100vh;
     background-color: #22212C;
     display: flex;
+    
 }
 
 .text-color{
@@ -20,7 +21,19 @@ body{
     border-radius: 20px;
     margin: 30px 0 0 40px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    padding: 20px 30px;
 
+}
+
+.list ul{
+    font-size: 14px;
+    padding: 20px 40px;
+    
+}
+
+.list ul li{
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 aside{
@@ -38,7 +51,7 @@ aside{
     height: 128px;
     border-radius: 50%;
     border: 2px solid #0F0;  
-    margin: 32px 110px;
+    margin: 32px 80px;
 }
 
 .text-one{
@@ -67,7 +80,7 @@ aside{
     justify-content: space-between;
 }
 
-.list ul li{
+.info ul li{
     list-style: none;
     margin-left: 20px;
     margin-bottom: 25px;
@@ -77,10 +90,16 @@ aside{
 .box-tree{
     width: 348px;
     height: 208px;
-    padding: 20px 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
 }
 
 .tech{
@@ -88,25 +107,59 @@ aside{
     height: 24px;
     border-radius: 30px;
     background-color: #CB92B1;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    
 }
 
 .tech p{
     font-size: 12px;
     font-weight: 700;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .box-four{
     width: 348px;
     height: 349px;
+    
 }
 
 .box-five{
     width: 348px;
     height: 352px;
+}
+
+.projects{
+    display: grid;
+    grid-template-areas: ' ret ret';
+}
+
+.retangle{
+    width: 952px;
+    height: 86px;
+    margin-bottom: 10px;
+    grid-area: ret;
+}
+
+.project-box{
+    width: 461px;
+    height: 186px;
+    top: 31px;
+}
+
+.retangle-two{
+    width: 952px;
+    height: 201px;
+}
+
+.img-post img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 20px 30px;
+}
+
+.text-two{
+    float: right;
 }
