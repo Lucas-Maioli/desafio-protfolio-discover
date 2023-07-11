@@ -142,10 +142,20 @@ aside{
     grid-area: ret;
 }
 
+.retangle h4{
+    margin-top: 15px;
+}
+
+.retangle p{
+    font-size: 14px;
+    text-align: end;
+    margin-top: -15px;
+}
+
 .project-box{
     width: 461px;
     height: 186px;
-    top: 31px;
+    padding: 30px 30px;
 }
 
 .retangle-two{
@@ -162,4 +172,11 @@ aside{
 
 .text-two{
     float: right;
+}
+
+.elipse{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #E7DE79;
 }
