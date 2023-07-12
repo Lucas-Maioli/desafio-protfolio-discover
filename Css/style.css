@@ -156,11 +156,14 @@ aside{
     width: 461px;
     height: 186px;
     padding: 30px 30px;
+    display: grid;
 }
 
 .retangle-two{
     width: 952px;
     height: 201px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img-post img{
@@ -172,6 +175,12 @@ aside{
 
 .text-two{
     float: right;
+    margin-top: 20px;
+}
+
+.text-two span{
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 .elipse{
